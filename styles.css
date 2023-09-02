@@ -1,0 +1,189 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(12, 10, 8);
+    height: 2000px;
+}
+/* topNav Section */
+.topNav {
+    display: flex;
+    margin-top: 0;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    top: 4px;
+}
+/* Left topNav Section */
+.op {
+    width: 35px;
+    height: 35px;
+}
+.leftContainer {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.cap {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.optionsIcon {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoIcon {
+    width: 240px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Middle topNav Section */
+.middleContainer {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 100px;
+}
+.microphoneContainer {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tt {
+    width: 80%;
+    padding-left: 2%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-style: italic;
+    border: 0.2px solid rgb(27, 27, 27);;
+    height: 35px;
+    font-size: 15px;
+}
+.tt:focus {
+    border-color: rgb(30, 30, 138);
+}
+.magnifireRight {
+    width: 40px;
+    height: 39.8px;
+    background-color: rgb(27, 27, 27);
+    margin-left: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mag {
+    width: 50%;
+}
+/* Right topNav Section */
+.rightContainer {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hat {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconCContainer {
+    border-radius: 50%;
+}
+/* left hidden  */
+.leftInfoContainer {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(12, 10, 8);
+   left: 0;
+}
+/* Top Section */
+.topCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.yup {
+    margin-left: 0px;
+}
+.ip {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+/* Left Options */
+.leftInfoContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 7px;
+}
+.bottomLine {
+    border-bottom: 1px gray solid;
+}
+.topsElems {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftInContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.leftInContainer, h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.topsHeaders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
